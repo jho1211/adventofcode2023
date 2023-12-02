@@ -1,5 +1,6 @@
 "use strict";
-const fs = require("fs")
+const fs = require("fs");
+const main = require("./utils");
 
 function part1() {
     const input = fs.readFileSync("inputs/day1.txt", 'utf-8').split("\n");
@@ -73,15 +74,5 @@ function part2() {
     console.log(sum);
 }
 
-const arg = process.argv[2]
-if(arg == 1) {
-    part1()
-}
-else if(arg == 2) {
-    part2()
-}
-else {
-    part1()
-    part2()
-}
+main(part1, part2);
 
