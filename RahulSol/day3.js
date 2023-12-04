@@ -43,7 +43,7 @@ function part1() {
             };
         }
     }
-    console.log(sum);
+    return sum;
 }
 
 function part2() {
@@ -96,7 +96,7 @@ function part2() {
             sum += numbers[0]*numbers[1];
         }
     }
-    console.log(sum);
+    return sum;
 }
 
 main(part1, part2);

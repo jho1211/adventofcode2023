@@ -29,7 +29,7 @@ function part1() {
         sum += Number(line[first] + line[last])
     }
 
-    console.log(sum);
+    return sum;
 }
 
 function part2() {
@@ -71,7 +71,7 @@ function part2() {
         sum += Number(first+last);
     }
 
-    console.log(sum);
+    return sum;
 }
 
 main(part1, part2);

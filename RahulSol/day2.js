@@ -31,7 +31,7 @@ function part1() {
         }
         sum += id+1;
     }  
-    console.log(sum);      
+    return sum;      
 }
 
 
@@ -65,7 +65,7 @@ function part2() {
         sum += r*g*b;
     }
 
-    console.log(sum);
+    return sum;
 }
 
 
