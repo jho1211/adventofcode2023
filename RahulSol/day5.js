@@ -40,7 +40,7 @@ function part1() {
 
     let min = Infinity;
     for(const seed of seeds) {
-        let dest = Number(seed);
+        let dest = seed;
         for(let i = 0; i < maps.length; i++) {
             dest = applyMapping(dest, i); 
         }
