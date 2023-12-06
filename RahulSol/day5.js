@@ -104,7 +104,7 @@ function part2() {
                 }
             }
             // If range not found
-            result.push([start, Math.min(start+toClosest, remaining)]);
+            result.push([start, Math.min(toClosest, remaining)]);
             start += toClosest;
             remaining -= Math.min(toClosest, remaining);
         }
