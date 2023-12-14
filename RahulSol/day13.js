@@ -1,5 +1,4 @@
 "use strict"
-const { isUtf8 } = require("buffer");
 const main = require("./utils");
 const fs = require("fs");
 
