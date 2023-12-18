@@ -75,7 +75,7 @@ def part2():
             for i in range(len(sub_sequences) - 2, -1, -1):
                 sub_sequences[i].insert(0, sub_sequences[i][0] - sub_sequences[i+1][0])
 
-            extrapolated_values.append(sub_sequences[0][-1])
+            extrapolated_values.append(sub_sequences[0][0])
 
         print(sum(extrapolated_values))
 
