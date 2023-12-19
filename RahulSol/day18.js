@@ -33,7 +33,7 @@ function part1() {
     }
     area = Math.abs(area) / 2;
 
-    const interiorPoints = area - parseInt(boundaryPoints/2) + 1;
+    const interiorPoints = area - boundaryPoints/2 + 1;
 
     return(interiorPoints + boundaryPoints);
 }
